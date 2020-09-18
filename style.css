@@ -1,0 +1,80 @@
+*{  
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#topPage{
+   
+    background-image: url("images/div_topPage.jpg");
+    background-size:     cover;
+    background-repeat: no-repeat;
+   
+    background-position: 30% 50%; 
+    height: fit-content;
+}
+
+#report{
+    flex: 1;
+  
+    width: fit-content;
+}
+.list{
+    list-style-type: none;
+    padding: 1.5vh;
+    display:flex;
+    justify-content: flex-end;
+    
+}
+
+#homeBar li{
+    padding-right: 3vh; 
+    font-weight: bold;
+    font-size: 2.2vh;
+    text-shadow: 0px 1px 0px black;
+      
+}
+#homeBar li:hover{
+    text-decoration: underline;
+    color:red;
+}
+
+header{
+    text-align: center;
+    color:red;
+   
+}
+header h1{
+    padding-top: 3vh;
+    text-shadow: 1px 3px 2px black;
+    font-size: 9vh;
+    font-weight: bold;    
+}
+header h2{
+    font-size: 3.5vh;
+    text-shadow: 1px 1px 1px black;
+}
+#motivazione{
+    text-align: center;
+    color: red;
+    text-shadow: 1px 1px 2px black;
+}
+#articles li{
+    border:solid #333;
+    height: 100px;    
+  width: 25%;
+  display: block;
+  position: relative;
+    background-color: #dfdfdf;
+}
+#articles{
+  display: inline;
+}
+#infoBullismo{
+    display: inline-block;
+
+}
+#container{
+    display: inline-block;
+}
