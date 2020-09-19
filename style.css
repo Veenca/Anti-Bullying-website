@@ -60,21 +60,82 @@ header h2{
     color: red;
     text-shadow: 1px 1px 2px black;
 }
-#articles li{
-    border:solid #333;
-    height: 100px;    
-  width: 25%;
-  display: block;
-  position: relative;
-    background-color: #dfdfdf;
+.main-container{
+    display: grid;
+    grid-template-columns: 25% 75%;
 }
-#articles{
-  display: inline;
+.main-container > div{
+   border: solid;
+    padding: 1em;
 }
-#infoBullismo{
-    display: inline-block;
+.main-container > aside{
+   
+}
+.article-list > li{
+    display: block;
+    margin-top: 15px;
+    border: solid transparent;
+    text-align: center;
+}
+.article-list > li > a{
+    padding: 5%;
+    color: black;
+}
+.article-list > li > a:hover{
+    padding: 5%;
+    color: rgb(65, 65, 221);
+}
+.article-img{
+    width: 100%;
+    padding: 5%;
+    padding-bottom: 2.5%;
+}
+.main-container > .right-content{
+    text-align: left;
+    background: #dfdfdfa4;
+}
+.main-container > .right-content > ul{
+    list-style-type: none;
+}
+.main-container > .right-content > ul > li> ul{
+    list-style-type: none;
+}
+.main-container > .right-content > ul > li> h1{
+    color:#1945bd;
+    text-shadow: 1px 1px 1px #392ed6;
+    font-size: 35px;
+}
+.main-container > .right-content > ul > li> p{
+    width: 75%;
+    font-size: 21px;
+   
+}
+.highlight{
+    background-color: yellow;
+}
 
+.bolder{
+    font-size: 130%;
+    font-weight: bold;
 }
-#container{
-    display: inline-block;
+#cicatriciList{
+    
+    padding-left: 2%;
+}
+.toggle-element{
+    width: 75%;
+    font-size: 23px;
+    font-weight: normal;
+    
+}
+.toggle-element>p{
+    font-size: 21px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.main-cicatrici{
+    text-decoration: underline;
+}
+.dont-show{
+    display: none;
 }
