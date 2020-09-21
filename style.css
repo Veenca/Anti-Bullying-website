@@ -275,6 +275,9 @@ header h2{
         margin-top: -3px;
         padding-top: 0;
     }
+    #homeBar>li> a{
+        background-color:transparent;
+    }
    
     .info{
         display: none;
