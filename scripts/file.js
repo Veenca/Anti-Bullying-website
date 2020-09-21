@@ -1,7 +1,25 @@
 
 
 $(document).ready(function () {
+//Menu Hamburger
+let menuIcon= $('#hamburger');
+let menu=$('#homeBar');
+let menuItem=$('.info')
+//console.log(menuIcon);-
+//console.log(menu);-
 
+menuIcon.click(function(){
+   menu.toggleClass("mobile",150);
+  menuItem.toggleClass("info",150);
+});
+
+
+
+
+
+
+
+//Aricoli riguardandi i sintomi in eta' adulta
    let infoSum =$('.main-cicatrici');
    infoSum.siblings('p').hide();
    let bg=$('li.toggle-element');
